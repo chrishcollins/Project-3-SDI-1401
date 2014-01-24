@@ -56,7 +56,7 @@ var buyBreakfast = function(myCash) { // function - local var - argument number 
 
 
 var totalCost = buyBreakfast(myCash);
-console.log(totalCost);
+console.log("I was able buy breakfast for only $" + totalCost);
 moneyLeft = (myCash - totalCost); 
 
 say("I was able to eat on " + myCash + " with " + moneyLeft + " cents left over.");
@@ -93,6 +93,28 @@ practicetime=90
 say(bandMembers[0]) ;"typically plays " + bandInstruments[0] + "but sometimes plays " + bandInstruments[4] + "during worship.";
 var ourFunction=function(bandMembers) {
     
+}
+
+
+var ourFunction = function(){
+lastPrint = {}; //JSON data
+lastPrint.value = "Once service is over we had to decide where to eat.  Our choices are to eat Mexican, Italian, burgers,  or";
+i = 0;
+while(true){ //while loop
+
+say(lastPrint.value.charAt(i)); // output
+
+if(i == lastPrint.value.length-1){ //Nested Conditional
+    if(i-1 == lastPrint.value.length-2){
+        break;
+    }
+}
+i++;
+}
+return true;
+}
+if(ourFunction()){
+say(" Chinese.");
 }
 
 
