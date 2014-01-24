@@ -88,10 +88,13 @@ var people = practiceTime(bandMembers);
 say("Our band consists of " + people[0] + ", " + people[1] + ", " + people[2] + ", " + people[3] + ", " + people[4] + "," +  people[5]);
 
 
-var time=practiceTime();
+var time=practiceTime(bandMembers);
 practicetime=90
 say(bandMembers[0]) ;"typically plays " + bandInstruments[0] + "but sometimes plays " + bandInstruments[4] + "during worship.";
-say("");
+var ourFunction=function(bandMembers) {
+    
+}
+
 
 
 
